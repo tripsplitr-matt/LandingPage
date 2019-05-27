@@ -13,11 +13,13 @@ What things you need to install the software and how to install them
  - Less
  - less-watch-compiler
  - Live-server
+ - Open Color
 
 ```
 npm install -g less
 npm install -g less-watch-compiler
 npm install -g live-server
+npm install -g open-color
 ```
 
 ## Deployed On
@@ -54,5 +56,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose svg was used
 * [Flaticon](https://www.flaticon.com)
 * [undraw](https://undraw.co)
+* [OpenColor](https://yeun.github.io/open-color)
 * etc
 
