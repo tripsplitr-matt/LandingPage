@@ -1,22 +1,57 @@
-.main-header {
+.header {
+    overflow: hidden;
     background-color: @primary-color;
-    font-size: @medium-font;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    padding: @medium-padding;
-
-    h1{
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-    }
+    font-size: @small-font;
+    padding: 20px;
 
     ul {
-        display: block;
+        display: flex;
         margin-left: 3rem;
     }
 
+    a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        line-height: 25px;
+        border-radius: 4px;
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+    }
+
+    .active {
+        background-color: #9FB1BC;
+        color: white;
+    }
+
+    a:hover {
+        background-color: #F1F1F1;
+        color: black;
+      }
+
+    i {
+        color: white;
+        padding: 12px;
+        align-items: baseline;
+    }
+
+    .header-right {
+        float: right;
+    }
+}
+
+@media @mobile{
+    .desktop {
+        display: none;
+    }
+      
+    .mobile {
+        display: block;
+    }
 }
