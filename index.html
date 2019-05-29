@@ -17,25 +17,44 @@
     <link rel="stylesheet" href="css/index.css">
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+    <script src="../components/menu/menu.js" async></script>
 
     <title>Trip Split</title>
 </head>
 <body>
-<!-- Main Header section -->
-    <header class="main-header">
-        <h1>Split Trip</h1>
-        <!-- <span><i class="fas fa-bars sidemenu-bar"></i></i></span> -->
 
-        <div class="nav-links">
-            <nav>
+<!-- Main Header section -->
+    <header class="header">
+        <a class="logo" href="#">Trip Split</a>
+        <div class="header-right">
+            <div class="nav">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Sign In</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li class="desktop"><a class="active" href="">Home</a></li>
+                    <li class="desktop"><a href="#">Log In</a></li>
+                    <li class="desktop"><a href="#">Sign Up</a></li>
+                    <span><i class="fas fa-bars mobile menu-button"></i></span>
                 </ul>
-            </nav>
+                
+            </div>
         </div>
     </header>
     <!-- End Main header section -->
+
+    <!-- Menu -->
+    <div class="menu">
+        <ul>
+          <li>About</li>
+          <li>Meet The Team</li>
+          <li>Our Services</li>
+          <li>Log Out</li>
+        </ul>
+    </div>
+    <!-- Menu End -->
+
+<!-- top section  -->
+    <section class="top-section">
+        <img src="assets/img/bakery-bar-breads-2253643.jpg" alt="">
+    </section>
+
 </body>
 </html>
