@@ -280,16 +280,19 @@ i {
   color: #9FB1BC;
 }
 .bottom-section {
-  margin-bottom: 90px;
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
+  padding: 185px 0 40px 0;
 }
-.bottom-section .bs-image {
+.bottom-section .bc-image {
   float: left;
   width: 320px;
 }
-.bottom-section .bs-image img {
+.bottom-section .bc-image img {
   border-radius: 10px;
 }
-.bottom-section .bs-text {
+.bottom-section .bc-text {
   margin: 0 0 0 80px;
   float: left;
   width: 350px;
