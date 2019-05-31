@@ -14,7 +14,7 @@
     background-color: #9FB1BC;
     border-left: none;
     border-bottom: none;
-    z-index: 2; 
+    z-index: 99; 
 }
   
 .menu ul li{
@@ -30,9 +30,23 @@
         background-color: #F1F1F1;
         color: black;
     }
-}
-  
 
+    a {
+        text-decoration: none;
+        list-style-type: none;
+        font-size: @small-font;
+        text-align: center;
+        color: white;
+        text-align: center;
+        padding: 12px;
+        line-height: 25px;
+        border-radius: 4px;
+        &:hover {
+            background-color: #F1F1F1;
+            color: black;
+        }
+    }
+}
 
 .menu--open {
     display: block;
