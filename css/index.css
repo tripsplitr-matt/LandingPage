@@ -237,6 +237,7 @@ i {
   .top-section-home .mobile-version {
     display: block;
     width: 400px;
+    margin-bottom: 40px;
   }
 }
 .top-section-home .all-device {
@@ -253,59 +254,29 @@ i {
   max-width: 400px;
   margin: 0 auto;
   padding-bottom: 60px;
-  font-size: 24px;
 }
 @media (max-width: 500px) {
   .top-section-home .text-section {
     padding-bottom: 20px;
-    font-size: 16px;
   }
 }
 .top-section-home .text-section h2 {
-  color: #2E5266;
-  letter-spacing: 1px;
-  line-height: 1.5;
-  margin: 0 0 20px 0;
+  font-size: 2.2rem;
+  margin: 0 0 37px 0;
+}
+@media (max-width: 500px) {
+  .top-section-home .text-section h2 {
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+  }
 }
 .top-section-home .text-section p {
-  line-height: 1.5;
   margin: 0 0 30px 0;
-  font-size: 18px;
 }
-.mid-section {
-  margin: 0 auto;
-  width: 900px;
-  text-align: center;
-  padding: 80px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-}
-.mid-section .ms-image {
-  width: 400px;
-  padding-left: 20px;
-}
-.mid-section .ms-image img {
-  border-radius: 10px;
-}
-.mid-section .ms-text {
-  width: 350px;
-  text-align: center;
-  margin-right: 60px;
-  float: right;
-  padding-top: 60px;
-}
-.mid-section .ms-text h2 {
-  color: #2E5266;
-  letter-spacing: 1px;
-  line-height: 1;
-  margin: 0 0 20px 0;
-}
-.mid-section .ms-text p {
-  line-height: 1.2;
-  margin: 0 0 30px 0;
-  color: #9FB1BC;
-  font-size: 20px;
+@media (max-width: 500px) {
+  .top-section-home .text-section p {
+    margin-bottom: 20px;
+  }
 }
 .menu-button {
   position: absolute;
