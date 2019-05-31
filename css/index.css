@@ -236,6 +236,7 @@ i {
 @media (max-width: 500px) {
   .top-section-home .mobile-version {
     display: block;
+    position: static;
     width: 400px;
     margin-bottom: 40px;
   }
@@ -276,6 +277,16 @@ i {
 @media (max-width: 500px) {
   .top-section-home .text-section p {
     margin-bottom: 20px;
+  }
+}
+.top-section-home .app-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .top-section-home .app-buttons {
+    flex-direction: column;
+    padding-bottom: 10px;
   }
 }
 .menu-button {

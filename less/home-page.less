@@ -20,6 +20,7 @@
 
         @media @mobile {
             display: block;
+            position: static;
             width: 400px;
             margin-bottom: 40px;
         }
@@ -62,8 +63,17 @@
             }
         }
     }
-}
 
+    .app-buttons {
+        display: flex;
+        justify-content: space-around;
+
+        @media @mobile {
+            flex-direction: column;
+            padding-bottom: 10px
+        }
+    }
+}
 
 
 // .mid-section {
