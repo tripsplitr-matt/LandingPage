@@ -1,68 +1,150 @@
 .top-section {
     background-color: #9FB1BC;
-    margin: 0 auto;
-    
-    
-    .top-section-home{
-        width: 95%;
-        display: flex;
-        margin: 0 auto;
-        position: relative;
-        z-index: 40;
-        text-align: center;
-        box-sizing: border-box;
-        padding: 70px 0 30px 550px;
-        color: #ffffff;
-
-        img {
-            position: absolute;
-            left: 0;
-            width: 500px;
-            top: 62px;
-
-        }
-
-        .text-section {
-            max-width: 400px;
-            margin: 0 auto;
-            padding-bottom: 60px;
-
-            h2 {
-                color: #2E5266;
-                letter-spacing: 1px;
-                line-height: 1.5;
-                margin: 0 0 20px 0;
-            }
-
-            p {
-                line-height: 1.5;
-                margin: 0 0 30px 0;
-            }
-        }
-    }
 }
-
-.mid-section {
+.top-section-home{
     margin: 0 auto;
-    width: 900px;
+    position: relative;
+    z-index: 40;
     text-align: center;
-    padding: 185px 0 40px 0;
+    box-sizing: border-box;
+    padding: 70px 0 30px 550px;
+    color: #ffffff;
 
-    .sv-image {
-        float: right;
-        width: 320px;
-
-        img {
-            
-        }
-        
+    @media @mobile {
+        padding: 40px 0 20px 0;
+        width: 90%;
     }
 
-    .sv-text {
-        width: 350px;
-        text-align: center;
-        margin-right: 60px;
-        float: right;
-        padding-top: 60px;
+    .mobile-version {
+        display: none;
+
+        @media @mobile {
+            display: block;
+            position: static;
+            width: 400px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .all-device {
+        width: 500px;
+        position: absolute;
+        left: 55px;
+
+        @media @mobile {
+            display: none;
+        }
+    }
+
+    .text-section {
+        max-width: 400px;
+        margin: 0 auto;
+        padding-bottom: 60px;
+
+        @media @mobile {
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            margin: 0 0 37px 0;
+
+            @media @mobile {
+                margin-bottom: 25px;
+                font-size: 1.8rem;
+            }
+        }
+
+        p {
+            margin: 0 0 30px 0;
+
+            @media @mobile {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .app-buttons {
+        display: flex;
+        justify-content: space-around;
+
+        @media @mobile {
+            flex-direction: column;
+        }
+    }
+
+    i {
+        @media @mobile {
+            padding-bottom: 5px;
+        }
     }
 }
+
+
+// .mid-section {
+//     margin: 0 auto;
+//     width: 900px;
+//     text-align: center;
+//     padding: 80px;
+//     display: flex;
+//     flex-direction: row-reverse;
+//     justify-content: space-between;
+//     // padding: 185px 0 40px 0;
+
+//     .ms-image {
+//         // float: right;
+//         width: 400px;
+//         padding-left: 20px;
+
+//         img {
+//             border-radius: 10px;
+//         }
+        
+//     }
+
+//     .ms-text {
+//         width: 350px;
+//         text-align: center;
+//         margin-right: 60px;
+//         float: right;
+//         padding-top: 60px;
+
+//         h2 {
+//             color: #2E5266;
+//             letter-spacing: 1px;
+//             line-height: 1;
+//             margin: 0 0 20px 0;
+//         }
+
+//         p {
+//             line-height: 1.2;
+//             margin: 0 0 30px 0;
+//             color: #9FB1BC;
+//             font-size: 20px;
+
+//         }
+//     }
+// }
+
+// .bottom-section {
+//     margin: 0 auto;
+//     width: 900px;
+//     text-align: center;
+//     padding: 185px 0 40px 0;
+//     .bc-image {
+//         float: left;
+//         width: 320px;
+
+//         img {
+//             border-radius: 10px;
+//         }
+//     }
+
+//     .bc-text {
+//         margin: 0 0 0 80px;
+//         float: left;
+//         width: 350px;
+//         text-align: center;
+//         padding-top: 60px;
+//     }
+// }
