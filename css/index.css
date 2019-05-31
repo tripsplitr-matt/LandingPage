@@ -286,7 +286,11 @@ i {
 @media (max-width: 500px) {
   .top-section-home .app-buttons {
     flex-direction: column;
-    padding-bottom: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .top-section-home i {
+    padding-bottom: 5px;
   }
 }
 .menu-button {
