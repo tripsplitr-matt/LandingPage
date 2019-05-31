@@ -303,8 +303,9 @@ i {
 .main {
   margin: 0 auto;
   width: 900px;
+  height: 820px;
   text-align: center;
-  padding: 185px 0 40px;
+  padding: 185px 0 40px 0;
 }
 @media (max-width: 500px) {
   .main {
@@ -312,30 +313,30 @@ i {
     padding: 75px 0 5px 0;
   }
 }
-.main .main-top {
+.main-top {
   margin-bottom: 90px;
 }
 @media (max-width: 500px) {
-  .main .main-top {
+  .main-top {
     margin-bottom: 60px;
   }
 }
-.main .main-top .mt-image {
+.main-top .mt-image {
   float: right;
   width: 320px;
 }
-.main .main-top .mt-image img {
+.main-top .mt-image img {
   border-radius: 20px;
 }
 @media (max-width: 500px) {
-  .main .main-top .mt-image {
+  .main-top .mt-image {
     float: none;
     margin: 0 auto 35px auto;
     width: auto;
     max-width: 320px;
   }
 }
-.main .main-top .mt-text {
+.main-top .mt-text {
   width: 350px;
   text-align: center;
   margin-right: 60px;
@@ -343,14 +344,14 @@ i {
   padding-top: 60px;
 }
 @media (max-width: 500px) {
-  .main .main-top .mt-text {
+  .main-top .mt-text {
     float: none;
     margin: 0 auto;
     padding: 0;
     max-width: 340px;
   }
 }
-.main .main-top .mt-text h2 {
+.main-top .mt-text h2 {
   color: #2E5266;
   font-size: 2.2rem;
   line-height: 1.2;
@@ -358,11 +359,64 @@ i {
   font-weight: bold;
 }
 @media (max-width: 500px) {
-  .main .main-top .mt-text h2 {
+  .main-top .mt-text h2 {
     font-size: 1.8rem;
   }
 }
-.main .main-top .mt-text p {
+.main-top .mt-text p {
+  line-height: 1.3;
+  margin: 0;
+  color: #2E5266;
+}
+.main-bottom {
+  margin-bottom: 90px;
+}
+@media (max-width: 500px) {
+  .main-bottom {
+    margin-bottom: 60px;
+  }
+}
+.main-bottom .mb-image {
+  float: left;
+  width: 320px;
+}
+@media (max-width: 500px) {
+  .main-bottom .mb-image {
+    float: none;
+    margin: 0 auto 35px auto;
+    width: auto;
+    max-width: 320px;
+  }
+}
+.main-bottom .mb-text {
+  margin: 0 0 0 80px;
+  float: left;
+  width: 350px;
+  text-align: center;
+  padding-top: 60px;
+}
+@media (max-width: 500px) {
+  .main-bottom .mb-text {
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+    max-width: 340px;
+  }
+}
+.main-bottom .mb-text h2 {
+  color: #2E5266;
+  font-size: 2.2rem;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  .main-bottom .mb-text h2 {
+    font-size: 1.8rem;
+  }
+}
+.main-bottom .mb-text p {
   line-height: 1.3;
   margin: 0;
   color: #2E5266;
